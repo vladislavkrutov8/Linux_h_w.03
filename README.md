@@ -19,6 +19,7 @@
 	
 
 	sudo useradd Home_work
+	
 	vladislav@vladislav-linux:~$ sudo adduser max
 	Добавляется пользователь «max» ...
 	Добавляется новая группа «max» (1003) ...
@@ -53,12 +54,12 @@
 
 * попрактиковаться в смене групп у пользователей;
 	
-	sudo adduser user1
+	sudo adduser max
 	
 * добавить пользователя в группу, не меняя основной;
 
-	sudo usermod -G group1 user1
-	test7 user4
+	sudo usermod -G group1 max
+	test7 max
 Создать пользователя с правами суперпользователя. Сделать так, чтобы sudo не требовал пароль для выполнения команд.
 	
 	sudo useradd -g sudo super_user
