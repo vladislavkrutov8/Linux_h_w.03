@@ -46,6 +46,7 @@
 * создать группу с использованием утилит groupadd и addgroup;
 
 	sudo groupadd group1
+	
 	vladislav@vladislav-linux:~$ sudo addgroup test7
 	Добавляется группа «test7» (GID 1003) ...
 	Готово.
